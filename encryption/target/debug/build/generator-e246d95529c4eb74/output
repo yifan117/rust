@@ -1,0 +1,25 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\ml64.exe" "-nologo" "-FoC:\\Users\\yifan\\OneDrive\\Desktop\\Udemy Code\\rust_\\encryption\\target\\debug\\build\\generator-e246d95529c4eb74\\out\\src/detail/asm\\asm_x86_64_ms_pe_masm.o" "-c" "src/detail/asm\\asm_x86_64_ms_pe_masm.asm"
+ Assembling: src/detail/asm\asm_x86_64_ms_pe_masm.asm
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\lib.exe" "-out:C:\\Users\\yifan\\OneDrive\\Desktop\\Udemy Code\\rust_\\encryption\\target\\debug\\build\\generator-e246d95529c4eb74\\out\\libasm.a" "-nologo" "C:\\Users\\yifan\\OneDrive\\Desktop\\Udemy Code\\rust_\\encryption\\target\\debug\\build\\generator-e246d95529c4eb74\\out\\src/detail/asm\\asm_x86_64_ms_pe_masm.o"
+exit code: 0
+cargo:rustc-link-lib=static=asm
+cargo:rustc-link-search=native=C:\Users\yifan\OneDrive\Desktop\Udemy Code\rust_\encryption\target\debug\build\generator-e246d95529c4eb74\out
