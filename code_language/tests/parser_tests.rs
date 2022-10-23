@@ -1,4 +1,5 @@
-
+#[cfg(test)]
+mod tests {
 use code_language::{tokeniser::{Token, tokenise}, parser::{Statement, parse, Assignment, Value}};
 
 #[test]
@@ -34,4 +35,5 @@ fn can_parse_basic_if_statement() {
     ];
 
     assert_eq!(statements, expected_statements);
+}
 }
